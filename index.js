@@ -76,11 +76,6 @@ function decryptZigzag(encryptedText, numRows) {
 	return decryptedText;
 }
 
-// const encryptedText = "HOLELWORLD";
-// const numRows = 3;
-// const decryptedText = decryptZigzag(encryptedText, numRows);
-// console.log("Pesan yang telah didekripsi: " + decryptedText);
-
 const readline = require('readline').createInterface({
 	input: process.stdin,
 	output: process.stdout,
